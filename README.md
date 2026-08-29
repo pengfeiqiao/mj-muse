@@ -1,6 +1,6 @@
-# Kunpeng Midjourney Skill
+# MJ Muse
 
-鲲鹏 Midjourney 视觉导演是一套独立、可移植的 Agent Skill。它把鲲鹏中的 Midjourney 提示词方法、参数策略和风格库整理为可供 Codex、Claude Code、Cursor 及其他支持 Agent Skills 的工具使用的公开仓库。
+MJ Muse 是一套独立、可移植的 Midjourney 提示词 Agent Skill。它把鲲鹏中的提示词方法、参数策略和风格库整理为可供 Codex、Claude Code、Cursor 及其他支持 Agent Skills 的工具使用的公开仓库。
 
 ## 内容
 
@@ -17,41 +17,41 @@ Skill 是纯提示词组合器，不包含网络请求、API Key、中转站、�
 克隆仓库：
 
 ```bash
-git clone https://github.com/pengfeiqiao/kunpeng-midjourney-skill.git
+git clone https://github.com/pengfeiqiao/mj-muse.git
 ```
 
 Codex：
 
 ```bash
-cp -R kunpeng-midjourney-skill/kunpeng-midjourney ~/.codex/skills/
+cp -R mj-muse/mj-muse ~/.codex/skills/
 ```
 
-Claude Code 或其他支持 Agent Skills 的工具：将 `kunpeng-midjourney` 文件夹复制到该工具的 Skills 目录。若工具没有 Skills 目录，让 Agent 直接读取 `kunpeng-midjourney/SKILL.md` 也可以使用。
+Claude Code 或其他支持 Agent Skills 的工具：将 `mj-muse` Skill 文件夹复制到该工具的 Skills 目录。若工具没有 Skills 目录，让 Agent 直接读取其中的 `SKILL.md` 也可以使用。
 
 ## 使用
 
 对 Agent 说：
 
 ```text
-使用 $kunpeng-midjourney，把“雨夜古城里的年轻剑客”改写为真实电影感的 Midjourney 提示词。
+使用 $mj-muse，把“雨夜古城里的年轻剑客”改写为真实电影感的 Midjourney 提示词。
 ```
 
 搜索风格：
 
 ```bash
-python3 kunpeng-midjourney/scripts/mj_style.py search "东方 珠玉 暗背景"
+python3 mj-muse/scripts/mj_style.py search "东方 珠玉 暗背景"
 ```
 
 查看风格：
 
 ```bash
-python3 kunpeng-midjourney/scripts/mj_style.py show ceremonial-jewelry
+python3 mj-muse/scripts/mj_style.py show ceremonial-jewelry
 ```
 
 生成结构化提示词与参数：
 
 ```bash
-python3 kunpeng-midjourney/scripts/mj_style.py compose mecha-ruin "a lunar rover" --aspect-ratio 16:9
+python3 mj-muse/scripts/mj_style.py compose mecha-ruin "a lunar rover" --aspect-ratio 16:9
 ```
 
 ## 设计原则

@@ -1,9 +1,9 @@
 ---
-name: kunpeng-midjourney
+name: mj-muse
 description: Design, rewrite, and critique Midjourney prompts using Kunpeng's curated visual-direction system and 84 style presets. Use when the user requests Midjourney imagery, Midjourney style selection, prompt refinement, reference-image strategy, or stylize/chaos/raw parameter guidance; do not activate for another image engine unless the user wants Midjourney-compatible output.
 ---
 
-# Kunpeng Midjourney Visual Director
+# MJ Muse
 
 Turn the user's visual intent into a concise Midjourney prompt without changing the requested subject, count, identity, action, relationship, product structure, layout, aspect ratio, or required text.
 

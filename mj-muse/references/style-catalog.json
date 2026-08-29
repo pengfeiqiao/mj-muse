@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "source": "Kunpeng Midjourney style library",
+  "source": "MJ Muse style library, curated from Kunpeng",
   "notes": "60 production-calibrated presets plus 24 director-calibrated presets. Names describe visual mechanisms rather than artist imitation.",
   "defaults": {
     "version": "v8.2",

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Search and compose prompts from the Kunpeng Midjourney style catalog."""
+"""Search and compose prompts from the MJ Muse style catalog."""
 
 from __future__ import annotations
 
