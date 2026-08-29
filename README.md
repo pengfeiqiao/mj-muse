@@ -14,7 +14,7 @@ Skill 是纯提示词组合器，不包含网络请求、API Key、中转站、�
 
 ## ShotLab 单文件版
 
-ShotLab 只允许上传一个 Markdown 文件时，直接上传 [`shortlab/MJ-Muse.md`](shortlab/MJ-Muse.md)。该文件已合并主 Skill、提示词方法、参数规则、参考图策略和全部 84 个风格，不依赖仓库中的其他文件。
+ShotLab 只允许上传一个 Markdown 文件时，直接上传 [`shortlab/SKILL.md`](shortlab/SKILL.md)。该文件已合并主 Skill、提示词方法、参数规则、参考图策略和全部 84 个风格，并强制每条 Midjourney 提交文本不超过 1000 个字符，不依赖仓库中的其他文件。
 
 ## 安装
 
