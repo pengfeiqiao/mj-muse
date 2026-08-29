@@ -1,0 +1,4 @@
+interface:
+  display_name: "鲲鹏 Midjourney 视觉导演"
+  short_description: "将创意改写为 Midjourney 提示词并按 84 种风格调参"
+  default_prompt: "使用 $kunpeng-midjourney 为我的主题选择风格并生成可直接使用的 Midjourney 提示词。"
