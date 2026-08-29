@@ -12,6 +12,10 @@ MJ Muse 是一套独立、可移植的 Midjourney 提示词 Agent Skill。它把
 
 Skill 是纯提示词组合器，不包含网络请求、API Key、中转站、鉴权、路由或计费逻辑，也不会自行触发付费生成。`client-integration.md` 仅说明如何把提示词结果交给用户自行配置的客户端或 API。
 
+## ShotLab 单文件版
+
+ShotLab 只允许上传一个 Markdown 文件时，直接上传 [`shortlab/MJ-Muse.md`](shortlab/MJ-Muse.md)。该文件已合并主 Skill、提示词方法、参数规则、参考图策略和全部 84 个风格，不依赖仓库中的其他文件。
+
 ## 安装
 
 克隆仓库：
